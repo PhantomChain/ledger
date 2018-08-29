@@ -1,5 +1,5 @@
 # Ark Ledger
-Ark wallet application for Ledger Blue and Nano S
+PHANTOM wallet application for Ledger Blue and Nano S
 
 Under development
 
@@ -7,7 +7,7 @@ Under development
 - Install ledger vagrant https://github.com/fix/ledger-vagrant
 - Clone this repo under `apps/`
 - Connect to the vagrant machine `vagrant ssh`
-- Move to the app `cd apps/ark-ledger`
+- Move to the app `cd apps/phantom-ledger`
 - Connect your ledger Nano S
 - Install the app `sh ./rebuild.sh` (ie. build, delete and load app on ledger)
 
@@ -25,7 +25,7 @@ Under development
 
 ## Security
 
-If you discover a security vulnerability within this application, please send an e-mail to security@ark.io. All security vulnerabilities will be promptly addressed.
+If you discover a security vulnerability within this application, please send an e-mail to security@phantom.org. All security vulnerabilities will be promptly addressed.
 
 ## License
 
