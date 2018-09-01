@@ -1,4 +1,4 @@
-# Ark Ledger
+# PHANTOM Ledger
 PHANTOM wallet application for Ledger Blue and Nano S
 
 Under development
