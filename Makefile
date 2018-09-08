@@ -20,7 +20,7 @@ $(error Environment variable BOLOS_SDK is not set)
 endif
 include $(BOLOS_SDK)/Makefile.defines
 
-APPNAME = Ark
+APPNAME = Phantom
 APP_LOAD_PARAMS=--appFlags 0x40 --curve secp256k1 $(COMMON_LOAD_PARAMS)
 
 APPVERSION_M=0
@@ -30,7 +30,7 @@ APPVERSION=$(APPVERSION_M).$(APPVERSION_N).$(APPVERSION_P)
 
 #prepare hsm generation
 ifeq ($(TARGET_NAME),TARGET_BLUE)
-ICONNAME=app_ark.gif
+ICONNAME=app_phantom.gif
 else
 ICONNAME=icon.gif
 endif
